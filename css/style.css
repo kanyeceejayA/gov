@@ -30,7 +30,7 @@ p {
 ul,ol {
     list-style: none;
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 ul li,ol li {
@@ -84,11 +84,11 @@ body {
     font-size: 14px;
     line-height: 1.7;
     font-weight: 300;
-    color: #74757f;
+    color: #29293a;
     background-color: #fff;
     -webkit-text-size-adjust: none;
     -webkit-font-smoothing: subpixel-antialiased;
-    letter-spacing: .03em
+    letter-spacing: .03em;
 }
 
 @media(min-width: 768px) {
@@ -1657,11 +1657,11 @@ html .list-inline-md>* {
 }
 
 .context-dark .list-nav,.bg-gray-700 .list-nav,.bg-gray-800 .list-nav,.bg-primary .list-nav,.bg-secondary .list-nav,.bg-primary-darker .list-nav {
-    color: #fff
+    color: #292f33;
 }
 
 .context-dark .list-nav a:hover,.bg-gray-700 .list-nav a:hover,.bg-gray-800 .list-nav a:hover,.bg-primary .list-nav a:hover,.bg-secondary .list-nav a:hover,.bg-primary-darker .list-nav a:hover {
-    color: #aeb1be
+    color: #292f33;
 }
 
 .list-inline-bordered {
@@ -1741,7 +1741,7 @@ html .list-inline-md>* {
 img {
     display: inline-block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-responsive {
@@ -2838,7 +2838,7 @@ textarea.form-input {
 }
 
 .context-dark .post-inline-title,.bg-gray-700 .post-inline-title,.bg-gray-800 .post-inline-title,.bg-primary .post-inline-title,.bg-secondary .post-inline-title,.bg-primary-darker .post-inline-title {
-    color: #fff
+    color: #292f33;
 }
 
 .context-dark .post-inline-title a:hover,.bg-gray-700 .post-inline-title a:hover,.bg-gray-800 .post-inline-title a:hover,.bg-primary .post-inline-title a:hover,.bg-secondary .post-inline-title a:hover,.bg-primary-darker .post-inline-title a:hover {
@@ -4449,7 +4449,6 @@ html:not(.tablet):not(.mobile)[data-x-mode=true] .thumbnail-corporate:hover .thu
 .thumbnail-light {
     text-align: left
 }
-
 .thumbnail-light-media {
     position: relative;
     overflow: hidden;
@@ -4477,7 +4476,8 @@ html:not(.tablet):not(.mobile)[data-x-mode=true] .thumbnail-corporate:hover .thu
 }
 
 .thumbnail-light-image {
-    width: 100%
+    width: 100%;
+    border-radius: 6px;
 }
 
 @media(max-width: 575.98px) {
@@ -6627,15 +6627,15 @@ html:not(.tablet):not(.mobile) .profile-minimal-caption {
 }
 
 .context-dark .timeline-classic-item-divider::before,.bg-gray-700 .timeline-classic-item-divider::before,.bg-gray-800 .timeline-classic-item-divider::before,.bg-primary .timeline-classic-item-divider::before,.bg-secondary .timeline-classic-item-divider::before,.bg-primary-darker .timeline-classic-item-divider::before {
-    border-color: #fff
+    border-color: #333;
 }
 
 .context-dark .timeline-classic-item-divider::after,.bg-gray-700 .timeline-classic-item-divider::after,.bg-gray-800 .timeline-classic-item-divider::after,.bg-primary .timeline-classic-item-divider::after,.bg-secondary .timeline-classic-item-divider::after,.bg-primary-darker .timeline-classic-item-divider::after {
-    background: #fff
+    background: black;
 }
 
 .context-dark .thumbnail-classic-item-subtitle,.bg-gray-700 .thumbnail-classic-item-subtitle,.bg-gray-800 .thumbnail-classic-item-subtitle,.bg-primary .thumbnail-classic-item-subtitle,.bg-secondary .thumbnail-classic-item-subtitle,.bg-primary-darker .thumbnail-classic-item-subtitle {
-    color: #fff
+    color: #292f33;
 }
 
 @media(max-width: 575.98px) {
@@ -8167,7 +8167,7 @@ html [class*=section-].section-bottom-0 {
 }
 
 .context-dark,.bg-gray-700,.bg-gray-800,.bg-primary,.bg-secondary,.bg-primary-darker,.context-dark h1,.bg-gray-700 h1,.bg-gray-800 h1,.bg-primary h1,.bg-secondary h1,.bg-primary-darker h1,.context-dark h2,.bg-gray-700 h2,.bg-gray-800 h2,.bg-primary h2,.bg-secondary h2,.bg-primary-darker h2,.context-dark h3,.bg-gray-700 h3,.bg-gray-800 h3,.bg-primary h3,.bg-secondary h3,.bg-primary-darker h3,.context-dark h4,.bg-gray-700 h4,.bg-gray-800 h4,.bg-primary h4,.bg-secondary h4,.bg-primary-darker h4,.context-dark h5,.bg-gray-700 h5,.bg-gray-800 h5,.bg-primary h5,.bg-secondary h5,.bg-primary-darker h5,.context-dark h6,.bg-gray-700 h6,.bg-gray-800 h6,.bg-primary h6,.bg-secondary h6,.bg-primary-darker h6,.context-dark [class^=heading-],.bg-gray-700 [class^=heading-],.bg-gray-800 [class^=heading-],.bg-primary [class^=heading-],.bg-secondary [class^=heading-],.bg-primary-darker [class^=heading-] {
-    color: #fff
+    color: #292f33;
 }
 
 .context-dark p a,.bg-gray-700 p a,.bg-gray-800 p a,.bg-primary p a,.bg-secondary p a,.bg-primary-darker p a {
@@ -8225,8 +8225,8 @@ html [class*=section-].section-bottom-0 {
 }
 
 .bg-gray-800 {
-    color: #aeb1be;
-    background-color: #15191f
+    color: #6c757d;
+    background-color: #fff;
 }
 
 .bg-gray-800 .rights {
@@ -8238,7 +8238,8 @@ html [class*=section-].section-bottom-0 {
 }
 
 .bg-secondary {
-    background-color: #04408b
+    background-color: #04408b;
+    color: white!important;
 }
 
 .bg-primary-darker {
@@ -9460,8 +9461,8 @@ html.mobile .ui-to-top,html.tablet .ui-to-top {
     position: absolute;
     left: 0;
     width: 290px;
-    background: #15191f;
-    z-index: 5
+    background: #f5f6fa;
+    z-index: 5;
 }
 
 .rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown {
@@ -9502,11 +9503,11 @@ html.mobile .ui-to-top,html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-navbar-dropdown li>a,.rd-navbar-static .rd-navbar-dropdown li>a:focus,.rd-navbar-static .rd-navbar-dropdown li>a:active,.rd-navbar-static .rd-megamenu-list li>a,.rd-navbar-static .rd-megamenu-list li>a:focus,.rd-navbar-static .rd-megamenu-list li>a:active {
-    color: #aeb1be
+    color: #29293a;
 }
 
 .rd-navbar-static .rd-navbar-dropdown li>a:hover,.rd-navbar-static .rd-megamenu-list li>a:hover {
-    color: #fff
+    color: black;
 }
 
 .rd-navbar-static .rd-navbar-dropdown li>a,.rd-navbar-static .rd-navbar-dropdown li>a::before,.rd-navbar-static .rd-megamenu-list li>a,.rd-navbar-static .rd-megamenu-list li>a::before {
@@ -17378,4 +17379,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     .d3-chart-legend span {
         font-size:18px
     }
+}
+
+
+article.thumbnail-light.profile {
+    box-shadow: 0 5px 10px 1px rgba(0,0,1,.3);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.bg-secondary h3,.bg-secondary h4, .bg-secondary p {
+    color: white!important;
 }
