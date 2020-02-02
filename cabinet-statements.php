@@ -8,7 +8,7 @@
           <div class="container breadcrumbs-custom-container">
             <div class="breadcrumbs-custom-main">
               <h6 class="breadcrumbs-custom-subtitle title-decorated">Documents</h6>
-              <h1 class="breadcrumbs-custom-title">Ministerial Statements</h1>
+              <h1 class="breadcrumbs-custom-title">Cabinet Statements</h1>
             </div>
             <ul class="breadcrumbs-custom-path">
               <li><a href="index">Home</a></li>

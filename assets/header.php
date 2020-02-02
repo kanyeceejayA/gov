@@ -118,7 +118,7 @@
                         </ul>
                       </li>
                     
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="//media.gcic.go.ug">Blog</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="//media.gcic.go.ug" target="blank">Blog</a>
                       <!-- RD Navbar Dropdown-->
                       <!-- <ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-blog.html">Grid Blog</a></li>
