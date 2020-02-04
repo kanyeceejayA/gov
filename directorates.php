@@ -1,4 +1,6 @@
-<?php include('assets/header.php') ?>
+<?php 
+    $name='Directorates';
+    include('assets/header.php') ?>
 
       <!-- Breadcrumbs -->
       <section class="breadcrumbs-custom bg-image" style="background-image: url(images/breadcrumbs-image-1.jpg);">

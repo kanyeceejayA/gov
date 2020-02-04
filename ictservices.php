@@ -81,11 +81,7 @@
                   
                   <h5 class="thumbnail-light-title"><a href="information">Commissioner 1</a></h5>
                   Department of Communications networks<br>
-                  <span class="fa fa-facebook fa-lg"></span>
-                  <span class="fa fa-twitter fa-lg"></span>
-                  <span class="fa fa-mail fa-lg"></span>    
-                  <a href="https://twitter.com/JudithNabakoob1?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-dnt="true" data-show-count="false">Follow @JudithNabakoob1</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </article>
+                  </article>
               </div>
               <div class="col-sm-6 col-lg-9">
                 <p class="wow-outer"><span class="wow slideInDown" data-wow-delay=".05s">The directorate is made up of the Department of Information and Public Relations and the Department of National Guidance</span></p>
